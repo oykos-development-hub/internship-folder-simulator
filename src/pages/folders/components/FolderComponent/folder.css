@@ -1,0 +1,49 @@
+body{
+    background: rgb(21, 99, 119);
+}
+.folders-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 5%;
+    background-color: floralwhite;
+}
+.first, .second, .third, .fourth{
+    display: block;
+    padding: 5px;
+    
+}
+.first:hover, .second:hover, .third:hover, .fourth:hover{
+    background: #7cd6d6;
+}
+
+.first i, span {
+    padding: 5px;
+}
+
+.second {
+    margin-left: 30px;
+}
+
+.second i, span{
+    padding: 5px;
+}
+
+.third{
+    margin-left: 65px;
+}
+
+.third i, span{
+    padding: 5px;
+}
+
+.fourth {
+    margin-left: 95px;
+}
+
+.fourth i, span{
+    padding: 5px;
+}
+
